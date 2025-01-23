@@ -1,0 +1,5 @@
+../SPARK_BMS/DRIVER/Src/rtc.c:32:6:RTC_Init	8	static
+../SPARK_BMS/DRIVER/Src/rtc.c:52:6:RTC_SetTime	16	static
+../SPARK_BMS/DRIVER/Src/rtc.c:57:6:RTC_SetDate	16	static
+../SPARK_BMS/DRIVER/Src/rtc.c:62:6:RTC_GetTime	16	static
+../SPARK_BMS/DRIVER/Src/rtc.c:67:6:RTC_GetDate	16	static

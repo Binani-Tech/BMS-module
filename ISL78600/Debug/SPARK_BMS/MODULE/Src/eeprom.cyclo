@@ -1,0 +1,9 @@
+eeprom.c:23:10:bytestowrite	2
+eeprom.c:36:6:EEPROM_Write	4
+eeprom.c:94:6:struct2array	2
+eeprom.c:112:6:array2struct	2
+eeprom.c:136:6:EEPROM_Read	3
+eeprom.c:158:19:EEPROM_ReadAll	7
+eeprom.c:245:6:EEPROM_PageRead	1
+eeprom.c:253:6:EEPROM_ERASEFULL	2
+eeprom.c:264:6:EEPROM_PageErase	1

@@ -1,0 +1,3 @@
+../SPARK_BMS/APPLICATION/Src/balancing.c:38:6:BAL_Check	24	static
+../SPARK_BMS/APPLICATION/Src/balancing.c:89:6:BAL_START	32	static
+../SPARK_BMS/APPLICATION/Src/balancing.c:130:6:BAL_STOP	24	static

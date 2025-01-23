@@ -1,0 +1,8 @@
+../SPARK_BMS/DRIVER/Src/timer.c:32:6:BASIC_TIMER_Init	8	static
+../SPARK_BMS/DRIVER/Src/timer.c:61:6:TIMER_Delay_us	16	static
+../SPARK_BMS/DRIVER/Src/timer.c:67:6:TIMER_Delay_ms	16	static
+../SPARK_BMS/DRIVER/Src/timer.c:73:6:GENERAL_TIMER_Init	8	static
+../SPARK_BMS/DRIVER/Src/timer.c:93:6:TIMER7_Init	8	static
+../SPARK_BMS/DRIVER/Src/timer.c:101:6:TIMER7_Start	8	static
+../SPARK_BMS/DRIVER/Src/timer.c:106:6:TIMER7_Stop	8	static
+../SPARK_BMS/DRIVER/Src/timer.c:111:6:TIMER7_Reset	4	static

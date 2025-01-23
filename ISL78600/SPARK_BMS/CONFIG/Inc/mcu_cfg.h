@@ -1,0 +1,273 @@
+/*
+ * @filename	mcu_cfg.h
+ * @author		SPARKBMS TEAM
+ * @date		May 24, 2023
+ * @ingroup		FOLDER NAME
+ * @prefix		mcu_cfg
+ * 
+ * @brief		Add the description
+ */
+#ifndef CONFIG_MCU_CFG_H_
+#define CONFIG_MCU_CFG_H_
+
+/*---------------------------------------Includes------------------------------------------------------*/
+
+#include "stm32l4xx_hal.h"
+#include "stm32l4xx_it.h"
+#include <string.h>
+#include <stdint.h>
+#include <math.h>
+#include <stdbool.h>
+
+/*---------------------------------------Macros--------------------------------------------------------*/
+
+#define NO_OF_PINS_PER_PORT				16
+
+#define MAX_NUMBER_OF_NVIC_POSITION		82
+#define MAX_PRIORITY_VALUE				15
+
+#define AFE_BQ76PL455		0
+#define AFE_ISL78600		1
+
+/*---------------------------------------Variables-----------------------------------------------------*/
+
+typedef enum
+{
+	GPIO_PA0	=	0,
+	GPIO_PA1	=	1,
+	GPIO_PA2	=	2,
+	GPIO_PA3	=	3,
+	GPIO_PA4	=	4,
+	GPIO_PA5	=	5,
+	GPIO_PA6	=	6,
+	GPIO_PA7	=	7,
+	GPIO_PA8	=	8,
+	GPIO_PA9	=	9,
+	GPIO_PA10	=	10,
+	GPIO_PA11	=	11,
+	GPIO_PA12	=	12,
+	GPIO_PA13	=	13,
+	GPIO_PA14	=	14,
+	GPIO_PA15	=	15,
+
+	GPIO_PB0	=	16,
+	GPIO_PB1	=	17,
+	GPIO_PB2	=	18,
+	GPIO_PB3	=	19,
+	GPIO_PB4	=	20,
+	GPIO_PB5	=	21,
+	GPIO_PB6	=	22,
+	GPIO_PB7	=	23,
+	GPIO_PB8	=	24,
+	GPIO_PB9	=	25,
+	GPIO_PB10	=	26,
+	GPIO_PB11	=	27,
+	GPIO_PB12	=	28,
+	GPIO_PB13	=	29,
+	GPIO_PB14	=	30,
+	GPIO_PB15	=	31,
+
+#if (AFE_ISL78600 == 1)
+
+	GPIO_PC0	=	32,
+	GPIO_PC1	=	33,
+	GPIO_PC2	=	34,
+	GPIO_PC3	=	35,
+	GPIO_PC4	=	36,
+	GPIO_PC5	=	37,
+	GPIO_PC6	=	38,
+	GPIO_PC7	=	39,
+	GPIO_PC8	=	40,
+	GPIO_PC9	=	41,
+	GPIO_PC10	=	42,
+	GPIO_PC11	=	43,
+	GPIO_PC12	=	44,
+	GPIO_PC13	=	45,
+	GPIO_PC14	=	46,
+	GPIO_PC15	=	47,
+
+	GPIO_PD0	=	48,
+	GPIO_PD1	=	49,
+	GPIO_PD2	=	50,
+	GPIO_PD3	=	51,
+	GPIO_PD4	=	52,
+	GPIO_PD5	=	53,
+	GPIO_PD6	=	54,
+	GPIO_PD7	=	55,
+	GPIO_PD8	=	56,
+	GPIO_PD9	=	57,
+	GPIO_PD10	=	58,
+	GPIO_PD11	=	59,
+	GPIO_PD12	=	60,
+	GPIO_PD13	=	61,
+	GPIO_PD14	=	62,
+	GPIO_PD15	=	63,
+
+#endif
+
+}GPIO_PINs;
+
+/*---------------------------------------Function Prototypes-------------------------------------------*/
+
+
+
+#if (AFE_BQ76PL455 == 1)
+/* MCU - AFE INTERFACE UART PORT */
+
+#define GPIO_PIN_BMS_INTERFACE_UART2_TX		GPIO_PA2
+#define GPIO_PIN_BMS_INTERFACE_UART2_RX		GPIO_PA3
+#define GPIO_PIN_BMS_FAULT_PIN				GPIO_PB4
+#define GPIO_PIN_BMS_WAKEUP_PIN				GPIO_PB3
+
+/* MCU - USER INTERFACE UART PORT */
+
+#define GPIO_PIN_USER_INTERFACE_UART1_TX	GPIO_PA9
+#define GPIO_PIN_USER_INTERFACE_UART1_RX	GPIO_PA10
+
+/* CAN COMMUNICATION PIN */
+
+#define GPIO_PIN_CAN1_TX					GPIO_PA12
+#define GPIO_PIN_CAN1_RX					GPIO_PA11
+#define GPIO_PIN_CAN1_STB					GPIO_PB2
+
+/* USER LED CONFIGURATION PIN */
+
+#define GPIO_PIN_LED1						GPIO_PB13
+#define GPIO_PIN_LED2						GPIO_PB14
+#define GPIO_PIN_LED3						GPIO_PB15
+#define GPIO_PIN_LED4						GPIO_PA8
+
+/* CONTACTOR CONFIGURATION PIN */
+
+#define GPIO_PIN_CHG_CONTACTOR				GPIO_PB1
+#define GPIO_PIN_DCHG_CONTACTOR				GPIO_PB12
+#define GPIO_PIN_PCHG_CONTACTOR				GPIO_PA6
+
+/* EEPROM CONFIGURATION PIN */
+
+#define GPIO_PIN_EEPROM_I2C2_SCL			GPIO_PB10
+#define GPIO_PIN_EEPROM_I2C2_SDA			GPIO_PB11
+
+/* ADC CONFIGURATION PIN */
+
+#define GPIO_PIN_PCB_TEMP_SENSOR			GPIO_PA4
+#define GPIO_PIN_CURRENT_SENSOR				GPIO_PA5
+
+/* OPEN DRAIN GPIO OUTPUT PIN */
+
+#define GPIO_PIN_BUZZER						GPIO_PB0
+#define GPIO_PIN_GPO2						GPIO_PA7
+
+/* BOOT0 PIN CONFIGURATION */
+
+#define GPIO_PIN_BOOT0						GPIO_PIN_3
+#define GPIO_PORT_BOOT0						GPIOH
+
+#endif
+
+#if (AFE_ISL78600 == 1)
+
+/* MCU - AFE INTERFACE */
+
+#define GPIO_PIN_AFE_SPI2_MOSI				GPIO_PB15
+#define GPIO_PIN_AFE_SPI2_MISO				GPIO_PB14
+#define GPIO_PIN_AFE_SPI2_SCLK				GPIO_PB13
+#define GPIO_PIN_AFE_SPI2_CS				GPIO_PB12
+#define GPIO_PIN_AFE_SPI2_DATAREADY			GPIO_PC6
+#define GPIO_PIN_AFE_SPI2_FAULTPIN			GPIO_PC7
+
+#define GPIO_PIN_BMS_INTERFACE_UART3_TX		GPIO_PB10
+#define GPIO_PIN_BMS_INTERFACE_UART3_RX		GPIO_PB11
+#define GPIO_PIN_BMS_FAULT_PIN				GPIO_PC4
+#define GPIO_PIN_BMS_WAKEUP_PIN				GPIO_PC3
+#define GPIO_PIN_AFE_UART_EN				GPIO_PB2
+
+/* SD CARD SPI COMMUNICATION */
+
+#define GPIO_PIN_SPI3_MOSI					GPIO_PC12
+#define GPIO_PIN_SPI3_MISO					GPIO_PC11
+#define GPIO_PIN_SPI3_SCLK					GPIO_PC10
+#define GPIO_PIN_SPI3_CS					GPIO_PA4
+
+/* CAN INTERFACE */
+
+#define GPIO_PIN_CAN1_TX					GPIO_PB9
+#define GPIO_PIN_CAN1_RX					GPIO_PB8
+
+/* UART INTERFACE */
+
+#define GPIO_PIN_BLE_UART1_RX				GPIO_PA10
+#define GPIO_PIN_BLE_UART1_TX				GPIO_PA9
+
+#define GPIO_PIN_RS_UART2_RX				GPIO_PA3
+#define GPIO_PIN_RS_UART2_TX				GPIO_PA2
+
+/* I2C INTERFACE */
+
+//#define GPIO_PIN_EEPROM_I2C2_SCL			GPIO_PB10
+//#define GPIO_PIN_EEPROM_I2C2_SDA			GPIO_PB11
+
+#define GPIO_PIN_ADC_RTC_I2C1_SDA			GPIO_PB7
+#define GPIO_PIN_ADC_RTC_I2C1_SCL			GPIO_PB6
+
+/* CONTACTOR CONFIGURATION PIN */
+
+#define GPIO_PIN_HS_CONTACTOR				GPIO_PC8
+#define GPIO_PIN_PCHG_CONTACTOR				GPIO_PC9
+#define GPIO_PIN_LS_CONTACTOR				GPIO_PA8
+#define GPIO_PIN_DCDC_CONTACTOR				GPIO_PA11
+#define GPIO_PIN_THERM_CONTACTOR			GPIO_PA12
+#define GPIO_PIN_EXT_CONTACTOR				GPIO_PA15
+
+/* ADC INTERFACE */
+
+#define GPIO_PIN_ADC1_PCBTEMP				GPIO_PC0
+
+//#define GPIO_PIN_ADC1_CURRENT				GPIO_PC1
+#define GPIO_PIN_ADC1_CURRENT_H			    GPIO_PC1
+#define GPIO_PIN_ADC1_CURRENT_L 			GPIO_PC2
+
+#define GPIO_PIN_ADC1_TEMP5					GPIO_PA0
+#define GPIO_PIN_ADC1_TEMP6					GPIO_PA1
+//#define GPIO_PIN_ADC1_TEMP7				GPIO_PA2
+//#define GPIO_PIN_ADC1_TEMP8				GPIO_PA3
+//#define GPIO_PIN_ADC1_TEMP9				GPIO_PA4
+//#define GPIO_PIN_ADC1_TEMP10				GPIO_PA5
+//#define GPIO_PIN_ADC1_TEMP11				GPIO_PA6
+//#define GPIO_PIN_ADC1_TEMP12				GPIO_PA7
+//#define GPIO_PIN_ADC1_TEMP13				GPIO_PC4
+//#define GPIO_PIN_ADC1_TEMP14				GPIO_PC3
+//#define GPIO_PIN_ADC1_TEMP15				GPIO_PB0
+//#define GPIO_PIN_ADC1_TEMP16				GPIO_PB1
+
+/* ISO VOLTAGE SENSING */
+
+#define GPIO_PIN_ADC1_HVADC1				GPIO_PC5
+#define GPIO_PIN_ADC1_HVADC2				GPIO_PB0
+#define GPIO_PIN_ADC1_HVADC3				GPIO_PB1
+
+/* KEYON INTERFACE */
+
+#define GPIO_PIN_KEYON1_EN					GPIO_PB3
+//#define GPIO_PIN_KEYON2_EN				GPIO_PB4
+
+/* GPIO IN/OUT */
+
+//#define GPIO_PIN_IN				        GPIO_PB2
+//#define GPIO_PIN_OUT			            GPIO_PB5
+
+/* BOOT0 PIN CONFIGURATION */
+
+#define GPIO_PIN_BOOT0						GPIO_PIN_3
+#define GPIO_PORT_BOOT0						GPIOH
+
+/* GPIO CONFIGURATION */
+
+#define GPIO_PIN_LED						GPIO_PD2
+#define GPIO_PIN_FAULT_LED				    GPIO_PB4
+#define GPIO_PIN_BUZZER						GPIO_PC13
+
+#endif
+
+
+#endif /* CONFIG_MCU_CFG_H_ */

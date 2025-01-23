@@ -1,0 +1,2 @@
+current.c:33:6:CURRENT_StartRead	1
+current.c:38:6:HAL_ADC_ConvCpltCallback	1

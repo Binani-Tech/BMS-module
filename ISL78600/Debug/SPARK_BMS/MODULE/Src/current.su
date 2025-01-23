@@ -1,0 +1,2 @@
+../SPARK_BMS/MODULE/Src/current.c:33:6:CURRENT_StartRead	8	static
+../SPARK_BMS/MODULE/Src/current.c:38:6:HAL_ADC_ConvCpltCallback	16	static

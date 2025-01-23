@@ -1,0 +1,2 @@
+shortcircuit.c:34:6:SHORTCIRCUIT_FaultManager	1
+shortcircuit.c:45:6:SHORTCIRCUIT_ClearFault	3

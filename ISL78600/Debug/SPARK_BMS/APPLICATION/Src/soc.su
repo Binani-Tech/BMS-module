@@ -1,0 +1,4 @@
+../SPARK_BMS/APPLICATION/Src/soc.c:65:6:SOC_Init	880	static
+../SPARK_BMS/APPLICATION/Src/soc.c:107:6:SOC_Update	24	static
+../SPARK_BMS/APPLICATION/Src/soc.c:184:6:SOH_Update	424	static
+../SPARK_BMS/APPLICATION/Src/soc.c:207:9:calcInitialSOC	24	static

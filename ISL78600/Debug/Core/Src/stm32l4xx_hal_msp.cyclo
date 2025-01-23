@@ -1,0 +1,9 @@
+stm32l4xx_hal_msp.c:34:6:HAL_MspInit	1
+stm32l4xx_hal_msp.c:48:6:HAL_SPI_MspInit	3
+stm32l4xx_hal_msp.c:67:6:HAL_RTC_MspInit	2
+stm32l4xx_hal_msp.c:87:6:HAL_TIM_Base_MspInit	5
+stm32l4xx_hal_msp.c:113:6:HAL_UART_MspInit	4
+stm32l4xx_hal_msp.c:135:6:HAL_CAN_MspInit	2
+stm32l4xx_hal_msp.c:149:6:HAL_I2C_MspInit	6
+stm32l4xx_hal_msp.c:187:6:HAL_ADC_MspInit	2
+stm32l4xx_hal_msp.c:204:6:HAL_WWDG_MspInit	2

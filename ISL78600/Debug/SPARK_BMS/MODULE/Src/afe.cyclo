@@ -1,0 +1,6 @@
+afe.c:37:6:AFE_Wakeup	3
+afe.c:60:6:AFE_WriteReg	9
+afe.c:138:6:AFE_ReadReg	9
+afe.c:190:6:AFE_WriteFrame	13
+afe.c:240:6:AFE_ReadFrameReq	2
+afe.c:256:6:AFE_WaitRespFrame	2

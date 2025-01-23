@@ -1,0 +1,8 @@
+timer.c:32:6:BASIC_TIMER_Init	5
+timer.c:61:6:TIMER_Delay_us	2
+timer.c:67:6:TIMER_Delay_ms	2
+timer.c:73:6:GENERAL_TIMER_Init	4
+timer.c:93:6:TIMER7_Init	2
+timer.c:101:6:TIMER7_Start	1
+timer.c:106:6:TIMER7_Stop	1
+timer.c:111:6:TIMER7_Reset	1

@@ -1,0 +1,16 @@
+../SPARK_BMS/MODULE/Src/contactor.c:49:6:CONT_Init	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:94:6:CONT_StateRequest	16	static
+../SPARK_BMS/MODULE/Src/contactor.c:231:6:CONT_DCDC	16	static
+../SPARK_BMS/MODULE/Src/contactor.c:249:6:Seq_Check	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:301:6:CONT_MainSequence	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:343:6:CONT_StopSequence	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:373:6:CONT_Slow_CHR_Seq	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:418:6:CONT_SlowChr_Disable	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:440:6:CONT_Fast_CHR_Seq	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:485:6:CONT_FastChr_Disable	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:510:6:CONT_HVAC_Seq	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:536:6:CONT_HVAC_Disable	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:553:6:CONT_Dealy	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:562:6:ERROR_Dealy	8	static
+../SPARK_BMS/MODULE/Src/contactor.c:571:6:CONT_Open	16	static
+../SPARK_BMS/MODULE/Src/contactor.c:576:6:CONT_Close	16	static

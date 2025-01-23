@@ -1,0 +1,5 @@
+rtc.c:32:6:RTC_Init	2
+rtc.c:52:6:RTC_SetTime	1
+rtc.c:57:6:RTC_SetDate	1
+rtc.c:62:6:RTC_GetTime	1
+rtc.c:67:6:RTC_GetDate	1

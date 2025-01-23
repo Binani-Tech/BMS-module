@@ -1,0 +1,16 @@
+contactor.c:49:6:CONT_Init	2
+contactor.c:94:6:CONT_StateRequest	11
+contactor.c:231:6:CONT_DCDC	3
+contactor.c:249:6:Seq_Check	21
+contactor.c:301:6:CONT_MainSequence	1
+contactor.c:343:6:CONT_StopSequence	2
+contactor.c:373:6:CONT_Slow_CHR_Seq	4
+contactor.c:418:6:CONT_SlowChr_Disable	2
+contactor.c:440:6:CONT_Fast_CHR_Seq	5
+contactor.c:485:6:CONT_FastChr_Disable	2
+contactor.c:510:6:CONT_HVAC_Seq	3
+contactor.c:536:6:CONT_HVAC_Disable	2
+contactor.c:553:6:CONT_Dealy	2
+contactor.c:562:6:ERROR_Dealy	2
+contactor.c:571:6:CONT_Open	1
+contactor.c:576:6:CONT_Close	1

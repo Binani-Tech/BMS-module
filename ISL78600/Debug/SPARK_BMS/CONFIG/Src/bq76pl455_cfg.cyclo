@@ -1,0 +1,5 @@
+bq76pl455_cfg.c:32:6:BQ_AFE_Config	1
+bq76pl455_cfg.c:143:6:BQ_AFE_OV_Config	1
+bq76pl455_cfg.c:176:6:BQ_AFE_UV_Config	1
+bq76pl455_cfg.c:210:6:BQ_AFE_ClearAllFault	1
+bq76pl455_cfg.c:219:6:BQ_AFE_AddressAll	2

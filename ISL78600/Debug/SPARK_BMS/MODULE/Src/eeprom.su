@@ -1,0 +1,9 @@
+../SPARK_BMS/MODULE/Src/eeprom.c:23:10:bytestowrite	16	static
+../SPARK_BMS/MODULE/Src/eeprom.c:36:6:EEPROM_Write	544	static
+../SPARK_BMS/MODULE/Src/eeprom.c:94:6:struct2array	104	dynamic
+../SPARK_BMS/MODULE/Src/eeprom.c:112:6:array2struct	104	dynamic
+../SPARK_BMS/MODULE/Src/eeprom.c:136:6:EEPROM_Read	64	static
+../SPARK_BMS/MODULE/Src/eeprom.c:158:19:EEPROM_ReadAll	552	static
+../SPARK_BMS/MODULE/Src/eeprom.c:245:6:EEPROM_PageRead	40	static
+../SPARK_BMS/MODULE/Src/eeprom.c:253:6:EEPROM_ERASEFULL	16	static
+../SPARK_BMS/MODULE/Src/eeprom.c:264:6:EEPROM_PageErase	296	static

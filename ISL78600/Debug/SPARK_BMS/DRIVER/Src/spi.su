@@ -1,0 +1,3 @@
+../SPARK_BMS/DRIVER/Src/spi.c:33:6:SPI_Init	16	static
+../SPARK_BMS/DRIVER/Src/spi.c:44:6:SPI_CS_Low	8	static
+../SPARK_BMS/DRIVER/Src/spi.c:49:6:SPI_CS_High	8	static

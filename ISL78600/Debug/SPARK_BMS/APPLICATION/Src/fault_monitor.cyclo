@@ -1,0 +1,4 @@
+fault_monitor.c:36:6:FAULT_VoltageMonitor	27
+fault_monitor.c:230:6:FAULT_TemperatureMonitor	24
+fault_monitor.c:396:6:FAULT_CurrentMonitor	13
+fault_monitor.c:485:6:FAULT_SOCMonitor	12

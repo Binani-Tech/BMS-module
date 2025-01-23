@@ -1,0 +1,2 @@
+wwdg_cfg.c:40:6:IWDG_Init	2
+wwdg_cfg.c:48:6:WWDG_Init	2

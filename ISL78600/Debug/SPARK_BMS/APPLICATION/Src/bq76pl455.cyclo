@@ -1,0 +1,8 @@
+bq76pl455.c:50:10:BQ_AFE_ReadSerialNo	1
+bq76pl455.c:68:6:BQ_AFE_Init	1
+bq76pl455.c:110:6:BQ_AFE_ReadVoltage	18
+bq76pl455.c:278:6:BQ_AFE_ReadTemperature	9
+bq76pl455.c:369:6:CURRENT_Read	7
+bq76pl455.c:423:9:BQ_AFE_CheckError	14
+bq76pl455.c:507:6:BQ_AFE_GETState	4
+bq76pl455.c:531:9:movingAvg	2

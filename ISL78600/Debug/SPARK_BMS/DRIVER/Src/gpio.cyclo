@@ -1,0 +1,6 @@
+gpio.c:35:6:GPIO_Init	4
+gpio.c:68:6:BOOT0_Init	1
+gpio.c:90:13:GPIO_Clock_Enable	1
+gpio.c:108:9:GPIO_ReadPin	1
+gpio.c:122:6:GPIO_WritePin	1
+gpio.c:134:6:GPIO_TogglePin	1

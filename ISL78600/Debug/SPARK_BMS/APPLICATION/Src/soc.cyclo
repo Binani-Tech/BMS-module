@@ -1,0 +1,4 @@
+soc.c:65:6:SOC_Init	3
+soc.c:107:6:SOC_Update	14
+soc.c:184:6:SOH_Update	3
+soc.c:207:9:calcInitialSOC	5

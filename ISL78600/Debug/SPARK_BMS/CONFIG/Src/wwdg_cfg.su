@@ -1,0 +1,2 @@
+../SPARK_BMS/CONFIG/Src/wwdg_cfg.c:40:6:IWDG_Init	8	static
+../SPARK_BMS/CONFIG/Src/wwdg_cfg.c:48:6:WWDG_Init	8	static

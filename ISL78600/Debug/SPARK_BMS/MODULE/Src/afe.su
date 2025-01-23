@@ -1,0 +1,6 @@
+../SPARK_BMS/MODULE/Src/afe.c:37:6:AFE_Wakeup	24	static
+../SPARK_BMS/MODULE/Src/afe.c:60:6:AFE_WriteReg	40	static
+../SPARK_BMS/MODULE/Src/afe.c:138:6:AFE_ReadReg	32	static
+../SPARK_BMS/MODULE/Src/afe.c:190:6:AFE_WriteFrame	64	static
+../SPARK_BMS/MODULE/Src/afe.c:240:6:AFE_ReadFrameReq	32	static
+../SPARK_BMS/MODULE/Src/afe.c:256:6:AFE_WaitRespFrame	168	static

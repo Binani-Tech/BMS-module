@@ -1,0 +1,2 @@
+../SPARK_BMS/APPLICATION/Src/shortcircuit.c:34:6:SHORTCIRCUIT_FaultManager	16	static
+../SPARK_BMS/APPLICATION/Src/shortcircuit.c:45:6:SHORTCIRCUIT_ClearFault	16	static

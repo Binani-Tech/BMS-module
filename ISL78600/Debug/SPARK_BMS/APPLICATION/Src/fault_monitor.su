@@ -1,0 +1,4 @@
+../SPARK_BMS/APPLICATION/Src/fault_monitor.c:36:6:FAULT_VoltageMonitor	16	static
+../SPARK_BMS/APPLICATION/Src/fault_monitor.c:230:6:FAULT_TemperatureMonitor	16	static
+../SPARK_BMS/APPLICATION/Src/fault_monitor.c:396:6:FAULT_CurrentMonitor	16	static
+../SPARK_BMS/APPLICATION/Src/fault_monitor.c:485:6:FAULT_SOCMonitor	16	static

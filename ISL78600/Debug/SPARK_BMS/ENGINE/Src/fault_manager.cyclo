@@ -1,0 +1,10 @@
+fault_manager.c:42:6:FAULTMANAGER_Voltage	22
+fault_manager.c:254:6:FAULTMANAGER_ClearVoltageFlag	53
+fault_manager.c:570:6:FAULTMANAGER_Temperature	20
+fault_manager.c:756:6:FAULTMANAGER_ClearTemperatureFlag	43
+fault_manager.c:1014:6:FAULTMANAGER_Current	14
+fault_manager.c:1150:6:FAULTMANAGER_ClearCurrentFlag	23
+fault_manager.c:1277:6:FAULTMANAGER_SOC	7
+fault_manager.c:1330:6:FAULTMANAGER_ClearSOCFlag	16
+fault_manager.c:1419:6:FAULTMANAGER_ClearFault	2
+fault_manager.c:1436:9:FAULTMANAGER_CheckFaults	4
